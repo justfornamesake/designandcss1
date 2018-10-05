@@ -53,6 +53,13 @@ header a:hover {
    collor:#cccccc;
    font-weight: bold;
 }
+.dark{
+  padding: 15px;
+  background: #e8491d;
+  color:#ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 #showcase{
     min-height: 400px;
     background:url('../img/showcase.jpg') no-repeat 0 -400px;
@@ -104,4 +111,40 @@ header a:hover {
 }
 #boxes .box img{
     width: 90px;
+}
+footer{
+    padding:20px;
+    margin-top:20px;
+    color: #f4f4f4;
+    background-color: #e8491d;
+    text-align: center;
+}
+/*sidebar */
+aside#sidebar{
+    margin-top: 10px;
+    float: right;
+    width: 30%;
+}
+ aside#sidebar .quote input aside#sidebar .quote textarea {
+        width:90%;
+        padding: 5px;
+ }
+article#main-col{
+    float:left;
+    width: 65%;
+}
+/*Services*/
+ul#services {
+list-style: none;
+padding: 20px;
+border: #cccccc solid 1px;
+margin-bottom: 5px;
+background: #e6e6e6;
+}
+
+/*only for screen size greater than 768px*/
+@media(max-width:768px){
+ body{
+     display: none;
+ }
 }
